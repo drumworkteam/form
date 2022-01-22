@@ -1,11 +1,12 @@
 
-load ../bind
-  take form bind
+load ..
+  load /bind
+    take form bind
 
-load ../task
-  take form base
-  take form flow
-    save form task-flow
+  load /task
+    take form base
+    take form flow
+      save form task-flow
 
 form call
   link name, form term

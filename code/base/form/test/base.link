@@ -1,12 +1,18 @@
 
 form test
-  link name, form term
-  link base, list task
-  link head, list task
-  link zone, list zone
 
-form zone
-  case call
-  case find
+form test-link, form test
+  link base
+  link head
 
-form find, form call
+form rise-like, form test-link
+  note <Greater than or equal compare type>
+
+form rise, form test-link
+
+form like, form test-link
+  note <Equal type>
+
+form fall, form test-link
+
+form fall-like, form test-link

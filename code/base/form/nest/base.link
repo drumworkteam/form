@@ -1,27 +1,2 @@
 
-load ../call
-  take form call
-
-load ../task
-  take form task
-
-load ../link
-  take form site
-
 form nest
-  case call
-  case task
-  case form
-  case site
-
-form site
-  link road
-
-form read
-  link road
-
-form move
-  link road
-
-form loan
-  link road

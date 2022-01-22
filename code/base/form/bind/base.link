@@ -2,9 +2,9 @@
 load ../term
   take form term
 
-load ../code
-  take form code
+load ../bond
+  take form bond
 
 form bind
   link term, form term
-  link code, form code
+  link bond, form bond

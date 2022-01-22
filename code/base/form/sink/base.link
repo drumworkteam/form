@@ -1,7 +1,8 @@
 
-form rise
-form fall
-
 form sink
+  note <Boolean type>
+
   case rise
+    note <True type>
   case fall
+    note <False type>
