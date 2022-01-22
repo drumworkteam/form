@@ -1,4 +1,0 @@
-
-claim regularity
-claim pairing
-  {\displaystyle \forall A\,\forall B\,\exists C\,\forall D\,[D\in C\iff (D=A\lor D=B)]}
