@@ -1,5 +1,5 @@
 
-form mesh
-  note <Graph data structure>
-  link link, list mesh-link
-  link site, list mesh-site
+# form mesh
+#   head form
+# Matrix<T: Type>(rows: Nat, columns: Nat): Type
+#   Vector<Vector<T, columns>, rows>
