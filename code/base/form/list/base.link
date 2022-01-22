@@ -1,0 +1,9 @@
+
+load ../form
+  take form form
+
+form list
+  head seat, form form
+  link size, form size
+  link base, loan form, link seat
+  link head, loan form, link seat

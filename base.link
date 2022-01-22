@@ -1,0 +1,13 @@
+
+deck @drumwork/form
+  head <Mathematical Models>
+  make <math>
+  make <information>
+  make <computation>
+  make <library>
+  host <Lance Pollard>
+  site <lp@elk.fm>
+  link ./link
+  hook ./hook
+  read ./read
+  term <Apache 2.0>

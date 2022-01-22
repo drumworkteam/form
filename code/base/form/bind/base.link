@@ -1,0 +1,10 @@
+
+load ../term
+  take form term
+
+load ../code
+  take form code
+
+form bind
+  link term, form term
+  link code, form code

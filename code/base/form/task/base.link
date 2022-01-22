@@ -1,0 +1,28 @@
+
+load ../call
+  take form call
+
+form flow-seat
+  case call, form call
+  case task, form task
+  case form, form form
+
+form task
+  link name, form term
+  link head, list head
+  link link, list link
+  link flow
+    form list
+      bind seat, form flow-seat
+
+form head
+  link name, form term
+  link head-form, form form
+  link fall, form task
+    bind seat, link head-form
+
+form link
+  link name, form term
+  link link-form, form form
+  link fall, form task
+    bind seat, link link-form
