@@ -3,6 +3,10 @@ form sink
   note <Boolean type>
 
   case rise
-    note <True type>
   case fall
-    note <False type>
+
+form rise, form sink
+  note <True type>
+
+form fall, form sink
+  note <False type>

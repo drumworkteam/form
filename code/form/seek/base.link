@@ -5,6 +5,7 @@ form seek
   head base, form form
 
   case void
-  case find loan base
+  case find, loan base
 
 form find
+  head base, form form

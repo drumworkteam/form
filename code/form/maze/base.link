@@ -1,5 +1,5 @@
 
 form maze
   note <Graph data structure>
-  link link, list mesh-link
-  link site, list mesh-site
+  link link, list maze-link
+  link site, list maze-site

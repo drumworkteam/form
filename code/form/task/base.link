@@ -11,18 +11,14 @@ form task
   link name, form term
   link head, list head
   link link, list link
-  link flow
-    form list
-      bind seat, form flow-seat
+  link flow, form list, form flow-seat
 
 form head
   link name, form term
   link head-form, form form
-  link fall, form task
-    bind seat, link head-form
+  link fall, form task, link head-form
 
 form link
   link name, form term
   link link-form, form form
-  link fall, form task
-    bind seat, link link-form
+  link fall, form task, link link-form

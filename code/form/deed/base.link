@@ -1,5 +1,5 @@
 
 form deed
-  base face, form face
-  base task, form term
-  base sift
+  link face, form face
+  link task, form term
+  link sift
