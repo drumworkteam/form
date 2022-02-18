@@ -1,7 +1,0 @@
-
-form find
-  note <Decidable type>
-  head base-form
-
-  case rise, link show, form loan base-form
-  case fall, link show, form loan not loan base-form

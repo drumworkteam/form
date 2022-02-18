@@ -1,8 +1,0 @@
-
-form knit
-  note <Map data structure>
-  head form
-
-  form tree-fork
-    bind base, form text
-    bind head, loan form
